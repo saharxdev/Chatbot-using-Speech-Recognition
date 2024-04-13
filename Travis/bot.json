@@ -1,0 +1,68 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+    {
+    "response_type": "question",
+    "user_input": ["What", "is", "your", "name"],
+    "bot_response": "My name is Travis! Dr. Rached's Assistant for inquiries about AI project",
+    "required_words": ["your", "name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["When", "are", "the", "office","hours"],
+    "bot_response": " MW 08:00 - 09:15, Section 3 H103\nMW 11:00 - 12:15, Section 1 H104\nMW 02:00 - 03:15, Section 2 H104\nOffice Hours: MTWR: 09:30 - 11:00 am, or by appointment",
+    "required_words": ["office", "hours"]
+  },
+   {
+    "response_type": "question",
+    "user_input": ["What", "is", "the", "course", "description"],
+    "bot_response": "This course introduces students to the basic knowledge representation and learning methods \nof artificial intelligence. The emphasis will be on understanding the fundamental artificial \nintelligence concepts, as well as being able to practically apply the corresponding approaches \nin solving practical problems and developing useful software applications. Covered topics \ninclude: intelligent agents, informed and uninformed search strategies, adversarial search, \nMDP, CSP, State of the Art AI topics.",
+    "required_words": ["course", "description"]
+  },
+     {
+    "response_type": "question",
+    "user_input": ["What", "are", "the", "topics","covered"],
+    "bot_response": " 1. General introduction to Artificial Intelligence, Algorithms and Heuristics, \nIntroduction to graphs, fully and not fully connected graphs, directed and undirected \ngraphs, representing a simple game as a graph\n2. Intelligent agents, Agent Design, Solving Problems with Search, Blind (Uninformed) \nsearch techniques, DFS, BFS. Heuristic search techniques, Iterative Deepening, \nUniform Cost, Greedy Search, A* Search, Admissible Heuristic\n3. Local Search Methods, Example Map Coloring, Local Search Example, Hill \nClimbing, Simulated Annealing. \n4. Game Trees: Minimax, Expectimax, Utilities\n5. Markov Decision Processes\n6. Reinforcement Learning, Bayesian reinforcement Learning, Bayes Nets\n7. Decision Networks, Markov Models, HMMs\n8. Machine Learning: Naïve Bayes, Perceptrons, Deep Learning\n9. Special Topics: Robotics, NLP, Computer Vision, Connected Autonomous Electric \nVehicles",
+    "required_words": ["topics"]
+  },
+     {
+    "response_type": "question",
+    "user_input": ["How", "many", "credits", "is", "the", "course"],
+    "bot_response": 3,
+    "required_words": ["credits", "course"]
+  }
+]
